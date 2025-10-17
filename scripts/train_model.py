@@ -32,7 +32,7 @@ def main():
     y_path = ROOT / args.labels_csv
 
     print(" Loading X & y ...")
-    X, y = load_xy(X_path, y_path, target_col=args.target)
+    X, y = load_xy(X_path, y_path, target_col=args.target_col)
     print("  shapes:", X.shape, y.shape)
 
     print(" Split train/valid ...")
