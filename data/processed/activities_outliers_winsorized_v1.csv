@@ -1,0 +1,6 @@
+student_id,grade_level,gpa,attendance_rate,club_interest,participated,grade_level_raw,gpa_raw,attendance_rate_raw,club_interest_raw,grade_level_outlier_flag,gpa_outlier_flag,attendance_rate_outlier_flag,club_interest_outlier_flag
+1001,11,3.8,0.96,4,1,11,3.8,0.96,4,0,0,0,0
+1002,10,3.1,0.88,2,0,10,3.1,0.88,2,0,0,0,0
+1003,12,3.55,0.93,5,1,12,3.55,0.93,5,0,0,0,0
+1004,9,2.9,0.85,1,0,9,2.9,0.85,1,0,0,0,0
+1005,11,3.2,0.9,3,0,11,3.2,0.9,3,0,0,0,0

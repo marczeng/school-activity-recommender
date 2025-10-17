@@ -1,0 +1,7 @@
+student_id,grade_level,gpa,attendance_rate,club_interest,participated
+1001,11,3.80,0.96,4,1
+1002,10,3.10,0.88,2,0
+1003,12,3.55,0.93,5,1
+1004,9,2.90,0.85,1,0
+1005,11,3.20,0.90,3,0
+

@@ -1,0 +1,7 @@
+column_name,description_zh_en,dtype,allowed_values_or_range,unit,nullable,example
+student_id,students ID / Anonymized student ID,int,>0,,no,10234
+grade_level,grade(9/10/11/12) / grade,int,9|10|11|12,,no,11
+gpa,学期GPA / GPA,float,0-4,,no,3.72
+attendance_rate,attendance rate / attendance rate,float,0-1,ratio,no,0.95
+club_interest,club interest(0-5) / club interest score,int,0-5,,yes,3
+participated,if participate in any activities / participated before,int,0|1,,no,1

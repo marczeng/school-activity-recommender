@@ -1,0 +1,49 @@
+{
+  "method": "IQR winsorization with binary flags (vectorized)",
+  "num_cols": [
+    "grade_level",
+    "gpa",
+    "attendance_rate",
+    "club_interest"
+  ],
+  "iqr_thresholds": {
+    "q1": {
+      "grade_level": 10.0,
+      "gpa": 3.1,
+      "attendance_rate": 0.88,
+      "club_interest": 2.0
+    },
+    "q3": {
+      "grade_level": 11.0,
+      "gpa": 3.55,
+      "attendance_rate": 0.93,
+      "club_interest": 4.0
+    },
+    "iqr": {
+      "grade_level": 1.0,
+      "gpa": 0.44999999999999973,
+      "attendance_rate": 0.050000000000000044,
+      "club_interest": 2.0
+    },
+    "lower": {
+      "grade_level": 8.5,
+      "gpa": 2.4250000000000007,
+      "attendance_rate": 0.8049999999999999,
+      "club_interest": -1.0
+    },
+    "upper": {
+      "grade_level": 12.5,
+      "gpa": 4.225,
+      "attendance_rate": 1.0050000000000001,
+      "club_interest": 7.0
+    }
+  },
+  "zscore_diagnostics": {
+    "grade_level": 0.0,
+    "gpa": 0.0,
+    "attendance_rate": 0.0,
+    "club_interest": 0.0
+  },
+  "source": "C:\\Users\\HP\\Desktop\\school-activity-recommender\\data\\processed\\activities_clean.csv",
+  "output": "C:\\Users\\HP\\Desktop\\school-activity-recommender\\data\\processed\\activities_outliers_winsorized_v1.csv"
+}
