@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data and outputs
+data/processed/
+data/predictions/
+models/
+reports/
+
+# Environments
+venv/
+.env/
+*.egg-info/
+build/
+dist/
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
